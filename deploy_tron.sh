@@ -34,7 +34,6 @@ while [ -n "$1" ] ;do
         --rpc-port)
             RPC_PORT=$2
             shift 2
-        *)
             ;;
     esac
     shift
